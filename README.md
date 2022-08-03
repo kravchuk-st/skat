@@ -1,1 +1,2 @@
-# skat
+Kravchuk Stanislav
+Landing page for Skat
