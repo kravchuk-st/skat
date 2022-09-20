@@ -162,17 +162,8 @@ h4 {
   font-size: 18px;
   background: #fff;
   border-radius: 22px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
   align-items: center;
 }
 
@@ -1146,6 +1137,7 @@ input::-webkit-input-placeholder {
   line-height: 37px;
   border-radius: 10px;
 }
+
 @media (min-width: 1180px) {
   .swiper-slide:not(.swiper-slide-active) {
     height: 220px;
@@ -1521,6 +1513,23 @@ input::-webkit-input-placeholder {
 
   .expens__descr {
     padding: 25px;
+  }
+
+  .modal__container {
+    padding: 30px 25px;
+  }
+
+  .modal__form input {
+    padding: 15px 20px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .modal__btn {
+    margin-top: 25px;
+    padding: 12px 30px;
+    font-size: 18px;
+    line-height: 22px;
   }
 }
 
